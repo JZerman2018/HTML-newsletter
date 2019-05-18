@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <style type="text/css">
-@import url('https://fonts.googleapis.com/css?family=Catamaran:400,800');
+    @import url('https://fonts.googleapis.com/css?family=Catamaran:400,800');
 
-* {
-margin: 0;
-border: 0;
-padding: 0;
-}
+    * {
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
 
-body {
+    body {
     font-family: 'Catamaran', sans-serif;
     background-color: #dbdddd;
     font-size: 18px;
@@ -59,6 +59,11 @@ p {
     text-align: justify;
 }
 
+.button-holder {
+    float: right;
+    margin: 0 2% 4% 0;
+}
+
 .btn {
     float: right;
     background: #607cc3;
@@ -78,7 +83,7 @@ p {
     clear: both;
     height: 2px;
     background-color: #b8bbbb;
-    margin: 6% auto;
+    margin: 4% auto;
     widows: 96%;
     
 }
@@ -105,17 +110,18 @@ a {
 }
 
 #callout {
-    display: inline;
-    margin: auto 40%; 
+    margin: 5% 3% 5% 3%;
+    text-align: center;
 }
 
 .social {
     list-style-type: none;
-    display: inline;
+    display: inline-block;
 }
 
 .social li {
-    display: inline;
+    display: inline-block;
+    text-align: center;
 }
 
 @media (max-width: 600px) {
@@ -184,12 +190,14 @@ a {
 <div class="line"></div>
 
 <div id="callout">
+    <div class="shoutout">
     <ul class="social">
         <li><a href="#" target="_blank"><img src="https://i.imgur.com/cdF79Kr.png"></a></li>
         <li><a href="#" target="_blank"><img src="https://i.imgur.com/yPG5fp9.png"></a></li>
         <li><a href="#" target="_blank"><img src="https://i.imgur.com/t7vV3Hf.png"></a></li>
         <li><a href="#" target="_blank"><img src="https://i.imgur.com/G0C6bht.png"></a></li>
     </ul>
+    </div>
 </div>
 
 <div class="line"></div>
